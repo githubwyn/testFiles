@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="appModule">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../node_modules/angular/angular.js"></script>
+</head>
+<body>
+<my-hello></my-hello>
+<div my-hello></div>
+<div class="my-hello"></div>
+<script>
+    //自定义指令
+    var app=angular.module('appModule',[]);
+    app.directive('myHello',function(){
+        return {
+            restrict:'ECMA',//可以限定使用范围,四种限定范围：顺序可以换，但必须是大写
+            replace:true,//默认将我们的模板插入到自定义命令中，注释模板不显示，将最外层的标签去掉
+//            并且要替换的模板只能有一个根节点
+            template:'<div><h>hello</h><p>jlsajlkj</p></div>'
+        }
+    })
+
+</script>
+</body>
+</html>

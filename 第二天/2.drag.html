@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html ng-app="appModule">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="../node_modules/angular/angular.js"></script>
+</head>
+<style>
+    div{
+        background: wheat;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 100px;
+        top:300px;
+    }
+    div+div{
+        background: green;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 100px;
+        top:150px;
+    }
+    div+div+div{
+        background: red;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 150px;
+        top:150px;
+    }
+</style>
+<body>
+<!--装饰型指令-->
+<div drag></div>
+<div drag></div>
+<div drag></div>
+<div drag></div>
+<script>
+    var app=angular.module('appModule',[]);
+    app.directive('drag',function(){
+        return {
+            //link函数时唯一一个可以操作dom的地方,将我们的视图和数据进行绑定的（链接函数）
+            link:function(scope,element,attrs){
+               element.on('mousedown',function(e){
+                   var disX=e.pageX-this.offsetLeft;
+                   var disY=e.pageY-this.offsetTop;
+                   //防止脱离焦点;
+                   angular.element(document).on('mousemove',function(e){
+                       element.css({
+                           //计算盒子距离浏览器边缘的距离
+                           top: e.pageY-disY+'px',
+                           left: e.pageX-disX+'px'
+                       })
+                   });
+                   angular.element(document).on('mouseup',function(e){
+                       angular.element(document).off();
+                   })
+                   e.preventDefault();
+               })
+            }
+        }
+    })
+</script>
+</body>
+</html>
