@@ -21,12 +21,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="node.markdown" pinned="false" current-in-tab="true">
+      <file leaf-file-name="node.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/第二天/node.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.67527676">
-                <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+              <first_editor vertical-scroll-proportion="1.4206642">
+                <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -34,6 +34,26 @@
           </provider>
           <provider editor-type-id="MultiMarkdownFxPreviewEditor">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第二天/3.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.38664323">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="panel.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第二天/panel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.548387">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -50,8 +70,8 @@
       <file leaf-file-name="2.drag.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/第二天/2.drag.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.806452">
-              <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+            <state vertical-scroll-proportion="-0.7096774">
+              <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -94,8 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第七周/练习/练习四/detail.html" />
-        <option value="$PROJECT_DIR$/第七周/练习/练习四/css/index.css" />
         <option value="$PROJECT_DIR$/第七周/练习/练习四/json/student.json" />
         <option value="$PROJECT_DIR$/第七周/练习/练习四/json/createData.js" />
         <option value="$PROJECT_DIR$/第七周/练习/练习四/json/wei.json" />
@@ -145,6 +163,8 @@
         <option value="$PROJECT_DIR$/第二天/1.指令.html" />
         <option value="$PROJECT_DIR$/第二天/node.markdown" />
         <option value="$PROJECT_DIR$/第二天/2.drag.html" />
+        <option value="$PROJECT_DIR$/第二天/panel.html" />
+        <option value="$PROJECT_DIR$/第二天/3.component.html" />
       </list>
     </option>
   </component>
@@ -241,6 +261,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -587,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/第二天/2.drag.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.806452">
-          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+        <state vertical-scroll-proportion="-0.7096774">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -596,8 +630,8 @@
     <entry file="file://$PROJECT_DIR$/第二天/node.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.67527676">
-            <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+          <first_editor vertical-scroll-proportion="1.4206642">
+            <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
             <folding />
           </first_editor>
           <second_editor />
@@ -605,6 +639,22 @@
       </provider>
       <provider editor-type-id="MultiMarkdownFxPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二天/panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.548387">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二天/3.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38664323">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
